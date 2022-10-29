@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1077</width>
+    <height>662</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Price Comparator by Donny Marthen Sitompul</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>16</y>
+      <width>501</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>No.</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="nomorLE"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Title</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Normal Price</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="normalPriceLE"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Discount (%)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="discLE"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Break Even Price</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="bepLE"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Stock</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="stockLE"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Berat</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="beratLE"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Description</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QTextEdit" name="descTE"/>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Search URL</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QTextEdit" name="searchURLTE"/>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Search Results</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLineEdit" name="searchResultsLE"/>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Search Details</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QTextEdit" name="searchDetailsTE"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QTextEdit" name="titleTE"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>501</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="backBtn">
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="nextBtn">
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="imgLabel">
+    <property name="geometry">
+     <rect>
+      <x>576</x>
+      <y>12</y>
+      <width>551</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveImageBtn">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>380</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save Image as...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="copyLibrariURLBtn">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>510</y>
+      <width>501</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>No URL to copy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tweetBtn">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>270</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tweet!</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../scrape-obor-or-id/4cc23e28035d3bef286c29139319c044--twitter-icon-icons.jpg</normaloff>../scrape-obor-or-id/4cc23e28035d3bef286c29139319c044--twitter-icon-icons.jpg</iconset>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>40</y>
+      <width>77</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="copyTitleBtn">
+       <property name="text">
+        <string>Copy</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>270</y>
+      <width>77</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="copyDescBtn">
+       <property name="text">
+        <string>Copy</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="totalRowsLbl">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>501</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1077</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
